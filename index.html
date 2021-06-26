@@ -6,14 +6,38 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>omnifood</title>
-    <meta name="omnifood_deliveries" content="omnifood_deliveries">
+    <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healty meals to as many people as possible.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="./vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./resources/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./resources/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./resources/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./resources/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./resources/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./resources/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./resources/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./resources/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="./resources/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./resources/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="./resources/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./resources/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="./resources/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./resources/favicons/manifest.json">
+    <link rel="shortcut icon" href="./resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="./resources/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="./resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
@@ -22,12 +46,13 @@
             <div class="row">
                 <img src="./resources/images/logo-white.png" alt="omnifood logo" class="logo">
                 <img src="./resources/images/logo.png" alt="omnifood logo" class="logo-black">
-                <ul class="main-nav">
+                <ul class="main-nav js--main-nav">
                     <li><a href="#features">Food delivery</a></li>
                     <li><a href="#how-it-works">How it works</a></li>
                     <li><a href="#our-cities">Our cities</a></li>
                     <li><a href="#sign-up">Sign up</a></li>
                 </ul>
+                <a class="mobile-nav js--nav-icon"> <i class="ion-navicon-round"></i> </a>
             </div>
         </nav>
         <div class="hero-text-box">
@@ -393,7 +418,7 @@
 
                 <div class="row">
                     <div class="col span-1-of-3">
-                        <label for="Drop us a line">Drop us a line</label>
+                        <label>Drop us a line</label>
                     </div>
                     <div class="col span-2-of-3">
                         <textarea name="message" id="message" placeholder="Your message"></textarea>
